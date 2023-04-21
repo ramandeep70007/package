@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>AFL</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logopack.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/10.0.2/js/intlTelInput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/10.0.2/js/utils.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/10.0.2/css/intlTelInput.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Logis
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logopack.png" alt="">
+        <!-- <h1>Logis</h1> -->
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="track.html">Track</a></li>
+          <li><a href="#">Ecommerce Shipping</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a class="get-a-quote packed" href="#">Login</a></li>
+          <li><a class="get-a-quote" href="#">Sign Up</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div class="bgoverlay">
+  <section id="hero" class="hero d-flex align-items-center">
+   
+    <div class="container">
+      <div class="row">
+      <div class="col-lg-6">
+        <h2>More Than Just <br>A Parcel Company</h2>
+        <span>----Guaranteed----</span>
+         
+      </div>
+      <div class="col-lg-6">
+        <span>ParceGo takes care of your parcel better than any other shipping agency. We do it quicker and safer.</span>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+
+      </div>
+      <div class="col-lg-6 whitebg">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="blacktext">Pickup From</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="tel" class="form-control" id="phone">
+
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control" placeholder="POST CODE" name="postcode">
+
+              </div>
+            </div>
+            
+            
+            
+
+          </div>
+          <div class="col-lg-6">
+            <h3 class="blacktext">Delivery to</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="tel" class="form-control" id="phone1">
+
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control" placeholder="POST CODE" name="postcode">
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row packdata">
+          <div class="col-lg-5">
+            <h2 class="package">Type of package</h2>
+
+          </div>
+          <div class="col-lg-5">
+            <select name="package" class="form-control" id="package">
+              <option >Select your package type</option>
+              <!-- <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option> -->
+            </select>
+
+          </div>
+          <div class="col-lg-2">
+
+          </div>
+        </div>
+        <div class="row packdata">
+          <div class="col-lg-5">
+            <h2 class="package">Attributes</h2>
+
+          </div>
+          <div class="col-lg-5">
+           
+
+          </div>
+          <div class="col-lg-2">
+
+          </div>
+
+        </div>
+        <div class="row attributecontent">
+          <div class="col-lg-6">
+            <input type="text" class="form-control texttype" name="weight" placeholder="Weight">
+            <input type="button" class="form-control buttontype" name="weightbutton" value="kg">
+          
+          </div>
+          <div class="col-lg-6">
+            <input type="text" class="form-control texttype" name="length" placeholder="Length">
+            <input type="button" class="form-control buttontype" name="lengthbutton" value="cm">
+
+          </div>
+        </div>
+          <div class="row attributecontent">
+          <div class="col-lg-6">
+            <input type="text" class="form-control texttype" name="widht" placeholder="Width">
+            <input type="button" class="form-control buttontype" name="widthbutton" value="cm">
+
+          </div>
+          <div class="col-lg-6">
+            <input type="text" class="form-control texttype" name="height" placeholder="Height">
+            <input type="button" class="form-control buttontype" name="heightbutton" value="cm">
+
+          </div>
+        </div>
+        <div class="row getquotes">
+          <div class="col-lg-12 testquote">
+            <input type="button" class="form-control getqt" name="getquote" value="GET A QUOTE">
+           
+          </div>
+        </div>
+        <div class="row getquotesq">
+          <div class="col-lg-12 testquote">
+           
+            <span class="quotedata">Get the best quotes from couriers</span>
+
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    </div>
+  
+  </section><!-- End Hero Section -->
+</div>
+  <section id="hero" >
+    <div class="container">
+      <div class="row">
+      <h2 class="txtcenter partner">Our Partners</h2>
+      <p class="ptxtcenter delpartner">Door-to-door delivery of your parcels in cooperation with the best and most reputable international couriers offering top quality services</p>
+    </div>
+    <div class="row">
+
+      <div class="MultiCarousel" data-items="1,2,3,4" data-slide="3" id="MultiCarousel"  data-interval="3000">
+        <div class="MultiCarousel-inner">
+            <div class="item">
+                <div class="pad15">
+                  <img src="assets/img/i1.png" class="partner" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pad15">
+                  <img src="assets/img/i2.png" class="partner" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pad15">
+                  <img src="assets/img/i3.png" class="partner" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pad15">
+                  <img src="assets/img/i4.png" class="partner" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pad15">
+                  <img src="assets/img/i5.png" class="partner" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pad15">
+                  <img src="assets/img/i6.png" class="partner" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pad15">
+                  <img src="assets/img/i7.png" class="partner" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pad15">
+                  <img src="assets/img/i8.png" class="partner" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pad15">
+                  <img src="assets/img/i9.png" class="partner" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pad15">
+                  <img src="assets/img/i10.png" class="partner" alt="">
+                </div>
+            </div>
+           
+        </div>
+        <button class="btn btn-primary leftLst"><</button>
+        <button class="btn btn-primary rightLst">></button>
+    </div>
+</div>
+
+
+      <!-- <div class="col-lg-2">
+       
+
+      </div>
+      <div class="col-lg-2">
+        
+        
+      </div>
+      <div class="col-lg-2">
+        
+        
+      </div>
+      <div class="col-lg-2">
+        
+        
+      </div>
+      <div class="col-lg-2">
+       
+        
+      </div>
+      <div class="col-lg-2">
+        
+        
+      </div> -->
+      
+    </div>
+    <!-- <div class="row">
+      <div class="col-lg-2">
+
+      </div>
+      <div class="col-lg-2">
+        
+
+      </div>
+      <div class="col-lg-2">
+       
+
+      </div>
+      <div class="col-lg-2">
+        
+
+      </div>
+      <div class="col-lg-2">
+        
+
+      </div>
+      <div class="col-lg-2">
+
+      </div>
+    </div> -->
+      
+    </div>
+  </section><!-- End Hero Section -->
+  <section id="hero" class="workdata" >
+    <div class="container">
+      <div class="row">
+      <h2 class="txtcenter work">How it works</h2>
+      <div class="col-lg-12">
+        <div class="slider">
+          <div class="splide__wrapper">
+            <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="card">
+                     
+                      <div class="card__content">
+                        <h3 class="card__title">Calculate Price</h3>
+                        <div class="card__description">Fill in your details and get the best price quoted than any other parcel company.</div>
+                        <div class="card_image"><img src="assets/img/cal.png" class="sliderimg" alt=""></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="card">
+                      
+                      <div class="card__content">
+                        <h3 class="card__title">Calculate Price</h3>
+                        <div class="card__description">Fill in your details and get the best price quoted than any other parcel company.</div>
+                        <div class="card_image"><img src="assets/img/c2.png" class="sliderimg" alt=""></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="card">
+                     
+                      <div class="card__content">
+                        <h3 class="card__title">Calculate Price</h3>
+                        <div class="card__description">Fill in your details and get the best price quoted than any other parcel company.</div>
+                        <div class="card_image"><img src="assets/img/c3.png" class="sliderimg" alt=""></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="card">
+                     
+                      <div class="card__content">
+                        <h3 class="card__title">Calculate Price</h3>
+                        <div class="card__description">Fill in your details and get the best price quoted than any other parcel company.</div>
+                        <div class="card_image"><img src="assets/img/c3.png" class="sliderimg" alt=""></div>
+                      </div>
+                    </div>
+                  </li>
+                 
+                 
+                </ul>
+              </div>
+            </div>
+          
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+    <div class="row ccdata">
+      <div class="col-lg-3">
+        <img src="assets/img/c1.png" class="cc" alt="">
+        <span class="cctext">1</span>
+
+      </div>
+      <div class="col-lg-3">
+        <img src="assets/img/c2.png" class="cc" alt="">
+        <span class="cctext">2</span>
+
+      </div>
+      <div class="col-lg-3">
+        <img src="assets/img/c3.png" class="cc" alt="">
+        <span class="cctext">3</span>
+
+      </div>
+      <div class="col-lg-3">
+        <img src="assets/img/c4.png" class="cc" alt="">
+        <span class="cctext">4</span>
+
+      </div>
+    </div>
+   
+   
+      
+    </div>
+  </section><!-- End Hero Section -->
+  <section id="hero" >
+    <div class="container">
+      <div class="row delpad">
+        <div class="col-lg-8">
+          <h2 class="delpack">Delivering Packages Safer and Quicker</h2>
+
+        </div>
+        <div class="col-lg-4">
+          <span class="delpackpara">ParceGo takes care of your parcel better than any other shipping agency. We do it quicker and safer.</span>
+
+        </div>
+     
+    </div>
+    <div class="row delpad1">
+      <div class="col-lg-4 delvieryboder">
+        <img src="assets/img/deliver.png" class="deliver" alt="">
+        <h3 class="delpackhead">Always looking after your goods</h3>
+        <span class="delpackpara">ParceGo takes care of your parcel better than any other shipping agency</span>
+
+      </div>
+      <div class="col-lg-4 delvieryboder">
+        <img src="assets/img/deliver.png" class="deliver" alt="">
+        <h3 class="delpackhead">Always looking after your goods</h3>
+        <span class="delpackpara">ParceGo takes care of your parcel better than any other shipping agency</span>
+
+
+      </div>
+      <div class="col-lg-4 delvieryboder">
+        <img src="assets/img/deliver.png" class="deliver" alt="">
+        <h3 class="delpackhead">Always looking after your goods</h3>
+        <span class="delpackpara">ParceGo takes care of your parcel better than any other shipping agency</span>
+
+      </div>
+    </div>
+   
+    
+      
+    </div>
+  </section><!-- End Hero Section -->
+  <section id="hero" class="testimonialss" >
+    <div class="container">
+      <div class="row">
+      <h2 class="txtcenter testdata">Testimonials</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 testtmonials">
+        <div class="starrank">
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        </div>
+        <p class="testimoalssdata">Very fast delivery. Thank you.</p>
+        <p class="testimoalssdataname">Joe Doe</p>
+
+      </div>
+      <div class="col-lg-3 testtmonials">
+        <div class="starrank">
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        </div>
+        <p class="testimoalssdata">Very fast delivery. Thank you.</p>
+        <p class="testimoalssdataname">Joe Doe</p>
+
+      </div>
+      <div class="col-lg-3 testtmonials">
+        <div class="starrank">
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        </div>
+        <p class="testimoalssdata">Very fast delivery. Thank you.</p>
+        <p class="testimoalssdataname">Joe Doe</p>
+
+      </div>
+      <div class="col-lg-3 testtmonials">
+        <div class="starrank">
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        <span class="fa fa-star checkedd"></span>
+        </div>
+        <p class="testimoalssdata">Very fast delivery. Thank you.</p>
+        <p class="testimoalssdataname">Joe Doe</p>
+
+      </div>
+    </div>
+    
+   
+      
+    </div>
+  </section><!-- End Hero Section -->
+
+  <section id="hero" >
+    <div class="container">
+      <div class="row">
+      <h2 class="txtcenter partner">Payment Partners</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="paymentimage">
+          <img src="assets/img/ppartner1.png" class="payimagw" alt="">
+
+        </div>
+      </div>
+     
+      
+      
+      
+      
+      
+      
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="paymentimage">
+          <img src="assets/img/ppartner2.png" class="payimagw" alt="">
+
+        </div>
+
+      </div>
+     
+     
+     
+     
+      
+      
+    </div>
+      
+    </div>
+  </section><!-- End Hero Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <!-- <span>Logis</span> -->
+            <img src="assets/img/footerlogo.png" alt="">
+          </a>
+          <p>More Than Just A Parcel Company.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footerdata">
+  
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>About</h4>
+          <ul>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Newsletter</a></li> 
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms of Services</a></li>
+            <li><a href="#">Customer Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+       
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Afl</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        
+        Designed by <a href="#">Takniik</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener( 'DOMContentLoaded', function() {
+  var splide = new Splide( '.splide', {
+    type   : 'slide',
+    perPage : 1,
+    perMove : 1,
+    gap : '15px',
+    width : 'min(1200px, 100% - 60px)',
+    // rewind     : true,
+    breakpoints: {
+      992: {
+        perPage: 1,
+      }, 
+      480: {
+        perPage: 1,
+        rewind : true,
+      },
+    }
+  } );
+  splide.mount();
+  
+} );
+
+$("#phone").intlTelInput();
+$("#phone1").intlTelInput();
+  </script>
+  <script>
+    $(document).ready(function () {
+    var itemsMainDiv = ('.MultiCarousel');
+    var itemsDiv = ('.MultiCarousel-inner');
+    var itemWidth = "";
+
+    $('.leftLst, .rightLst').click(function () {
+        var condition = $(this).hasClass("leftLst");
+        if (condition)
+            click(0, this);
+        else
+            click(1, this)
+    });
+
+    ResCarouselSize();
+
+
+
+
+    $(window).resize(function () {
+        ResCarouselSize();
+    });
+
+    //this function define the size of the items
+    function ResCarouselSize() {
+        var incno = 0;
+        var dataItems = ("data-items");
+        var itemClass = ('.item');
+        var id = 0;
+        var btnParentSb = '';
+        var itemsSplit = '';
+        var sampwidth = $(itemsMainDiv).width();
+        var bodyWidth = $('body').width();
+        $(itemsDiv).each(function () {
+            id = id + 1;
+            var itemNumbers = $(this).find(itemClass).length;
+            btnParentSb = $(this).parent().attr(dataItems);
+            itemsSplit = btnParentSb.split(',');
+            $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+            if (bodyWidth >= 1200) {
+                incno = itemsSplit[3];
+                itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 992) {
+                incno = itemsSplit[2];
+                itemWidth = sampwidth / incno;
+            }
+            else if (bodyWidth >= 768) {
+                incno = itemsSplit[1];
+                itemWidth = sampwidth / incno;
+            }
+            else {
+                incno = itemsSplit[0];
+                itemWidth = sampwidth / incno;
+            }
+            $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+            $(this).find(itemClass).each(function () {
+                $(this).outerWidth(itemWidth);
+            });
+
+            $(".leftLst").addClass("over");
+            $(".rightLst").removeClass("over");
+
+        });
+    }
+
+
+    //this function used to move the items
+    function ResCarousel(e, el, s) {
+        var leftBtn = ('.leftLst');
+        var rightBtn = ('.rightLst');
+        var translateXval = '';
+        var divStyle = $(el + ' ' + itemsDiv).css('transform');
+        var values = divStyle.match(/-?[\d\.]+/g);
+        var xds = Math.abs(values[4]);
+        if (e == 0) {
+            translateXval = parseInt(xds) - parseInt(itemWidth * s);
+            $(el + ' ' + rightBtn).removeClass("over");
+
+            if (translateXval <= itemWidth / 2) {
+                translateXval = 0;
+                $(el + ' ' + leftBtn).addClass("over");
+            }
+        }
+        else if (e == 1) {
+            var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+            translateXval = parseInt(xds) + parseInt(itemWidth * s);
+            $(el + ' ' + leftBtn).removeClass("over");
+
+            if (translateXval >= itemsCondition - itemWidth / 2) {
+                translateXval = itemsCondition;
+                $(el + ' ' + rightBtn).addClass("over");
+            }
+        }
+        $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+    }
+
+    //It is used to get some elements from btn
+    function click(ell, ee) {
+        var Parent = "#" + $(ee).parent().attr("id");
+        var slide = $(Parent).attr("data-slide");
+        ResCarousel(ell, Parent, slide);
+    }
+
+});
+  </script>
+
+</body>
+
+</html>
